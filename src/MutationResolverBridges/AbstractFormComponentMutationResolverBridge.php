@@ -8,7 +8,7 @@ use PoP\ComponentModel\Misc\GeneralUtils;
 use PoP\ComponentModel\QueryInputOutputHandlers\ResponseConstants;
 use PoP\ComponentModel\Facades\ModuleProcessors\ModuleProcessorManagerFacade;
 use PoP\ComponentModel\MutationResolverBridges\AbstractComponentMutationResolverBridge;
-use PoP\ComponentModel\Error;
+use PoP\ComponentModel\ErrorHandling\Error;
 
 abstract class AbstractFormComponentMutationResolverBridge extends AbstractComponentMutationResolverBridge
 {
